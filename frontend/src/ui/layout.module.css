@@ -1,0 +1,48 @@
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.main {
+  padding: 0 10px;
+}
+
+.navbar {
+  height: 60px;
+  background-color: azure;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  font-size: large;
+}
+
+.navElements ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.navElements ul li {
+  margin-right: 30px;
+}
+
+.navElements ul a {
+  text-decoration: none;
+}
+
+.hidden {
+  display: none;
+}
